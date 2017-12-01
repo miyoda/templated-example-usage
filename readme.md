@@ -1,5 +1,4 @@
-## Templated example of use
------
+# Templated example of use
 
 This is an example of use of "templated" project:
 https://github.com/miyoda/templated.git
