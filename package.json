@@ -5,16 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "templated"
+    "prebuild": "templated-npm"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyoda/templated-example-usage.git"
+    "url": "git+https://github.com/miyoda/templated-npm-example-usage.git"
   },
   "author": "miyoda",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miyoda/templated-example-usage/issues"
+    "url": "https://github.com/miyoda/templated-npm-example-usage/issues"
   },
-  "homepage": "https://github.com/miyoda/templated-example-usage#readme"
+  "homepage": "https://github.com/miyoda/templated-npm-example-usage#readme",
+  "devDependencies": {
+    "templated-npm": "file:../templated-npm"
+  }
 }
