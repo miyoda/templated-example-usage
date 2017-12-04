@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/miyoda/templated-npm-example-usage#readme",
   "devDependencies": {
-    "templated-npm": "^1.0.0"
+    "templated-npm": "^1.4.0"
   },
   "dependencies": {}
 }
