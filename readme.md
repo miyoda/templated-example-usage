@@ -10,12 +10,17 @@ https://github.com/miyoda/templated-example-template.git
 The example copy a file with name "simple-file.txt".
 The example copy a folder with a file with name "simple-folder/simple-file-on-folder.txt"
 
-This example copy automatically in readme.md and in readme.html an embed text in the position with the code:
+This files are in .gitignore but is not necesary, you can upload this to repository.
+
+This example copy automatically in test.md and in test.html an embed text in the position with the code:
 ```html
 <!-- start|embedded-text --> it was replaced <!-- end|embedded-text -->
 ```
+From file:
+> test.md|embedded-text.part
+And
+> test.html|embedded-text.part
 
-This is the embed text in this readme file:
-<!-- start|embedded-text --> it was replaced <!-- end|embedded-text -->
-
-This file is in .gitignore but is not necesary, you can upload this to repository.
+In test.md is copied on start an end the files
+> test.md|start.part
+> test.md|end.part
